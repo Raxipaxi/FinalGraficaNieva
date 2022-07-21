@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ForceShield
-  m_Shader: {fileID: 4800000, guid: 14c179e6931bed84ca4571994da0d191, type: 3}
+  m_Name: Screen
+  m_Shader: {fileID: 4800000, guid: 3e080ef2a0e530043a33efdbe6ad0698, type: 3}
   m_ShaderKeywords: 
-  m_LightmapFlags: 0
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _TextureSample0:
-        m_Texture: {fileID: 2800000, guid: e40fbac06c27674449413907551b5fa8, type: 3}
+        m_Texture: {fileID: 8400000, guid: e1f7779289dd9634a96359179595b933, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -28,12 +28,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _DepthDistance: 0.2380685
-    - _FallOff: 0.292
-    - _GeneralOpacity: 0.4960415
-    - _Noise: 0.5133484
-    - _Scale: 0.5288932
-    - __dirty: 1
+    - _IntensidadNoise: 20
+    - _NoiseTiling: 1.6
+    - _NoiseTiling1: 1.6
     m_Colors:
-    - _PannerDirection: {r: 0.2, g: 0, b: 0, a: 0}
+    - _Lluvia1: {r: 0, g: 1, b: 0, a: 0}
+    - _Lluvia2: {r: 0.97199535, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

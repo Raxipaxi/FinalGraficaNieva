@@ -776,8 +776,9 @@ GameObject:
   - component: {fileID: 914073760}
   - component: {fileID: 914073759}
   - component: {fileID: 914073758}
+  - component: {fileID: 914073761}
   m_Layer: 0
-  m_Name: Camera
+  m_Name: HoloCam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -841,13 +842,28 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 914073757}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.12715119, y: 0, z: 0, w: 0.9918834}
   m_LocalPosition: {x: -4.6531434, y: 3.69, z: -5.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 14.61, y: 0, z: 0}
+--- !u!114 &914073761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914073757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee2fdd61fcf86cc4795d1de8e362ecf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shader: {fileID: 4800000, guid: e8431d773155cec4b9480f68b13a4d30, type: 3}
+  speed: 0.016
+  intensity: 0.833
 --- !u!1 &941763665
 GameObject:
   m_ObjectHideFlags: 0
@@ -955,6 +971,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1027,6 +1044,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c5cdee004b7157429b619e3b01c1fd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shader: {fileID: 4800000, guid: edf166c00322c114db1c01ba84cb5e96, type: 3}
+  colorA: {r: 0, g: 0.9905014, b: 1, a: 0}
+  colorB: {r: 0.5188679, g: 0, b: 0, a: 0}
+  speed: 0.587
 --- !u!1001 &1109704222
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1734,7 +1767,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3955158964317537456, guid: 347e5f4e41d722549b9648b2f3e1a727, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.23
+      value: -0.4
       objectReference: {fileID: 0}
     - target: {fileID: 3955158964317537456, guid: 347e5f4e41d722549b9648b2f3e1a727, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1742,7 +1775,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3955158964317537456, guid: 347e5f4e41d722549b9648b2f3e1a727, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.73
+      value: 2.1
       objectReference: {fileID: 0}
     - target: {fileID: 3955158964317537456, guid: 347e5f4e41d722549b9648b2f3e1a727, type: 3}
       propertyPath: m_LocalRotation.w

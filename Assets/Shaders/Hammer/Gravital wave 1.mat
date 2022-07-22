@@ -7,11 +7,11 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Crown
-  m_Shader: {fileID: 4800000, guid: f19a98d1ab01b5d41a072a0f21ec5f96, type: 3}
+  m_Name: Gravital wave 1
+  m_Shader: {fileID: 4800000, guid: 6e13e8d2c76d81546b4781f4911c5c66, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -20,7 +20,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _TextureSample0:
-        m_Texture: {fileID: 2800000, guid: dfbf8c4f708c02e428ba1a3facec3420, type: 3}
+        m_Texture: {fileID: 2800000, guid: 76f8b73c69a53184f8b0d2172c7dffd8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 76f8b73c69a53184f8b0d2172c7dffd8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -28,14 +32,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _FlashWidth: 0.9022876
-    - _FlashWidth1: 0.9022876
-    - _Inclinacion: 2.56
-    - _Inclinacion1: 2.56
-    - _Metallica: 1.1882353
-    - __dirty: 1
-    m_Colors:
-    - _Color1: {r: 1, g: 0.8109739, b: 0, a: 1}
-    - _Color2: {r: 1, g: 0, b: 0.47632027, a: 1}
-    - _Point: {r: -4.6, g: 3.7920837, b: -0.15, a: 0}
+    - _DistortionScale: 0.42311066
+    - _Freq1: 8
+    - _Intensity1: 0.00486
+    - _Mask1: 0
+    - _TimeScale: 2
+    - _TimeScale1: 2
+    - __dirty: 0
+    m_Colors: []
   m_BuildTextureStacks: []

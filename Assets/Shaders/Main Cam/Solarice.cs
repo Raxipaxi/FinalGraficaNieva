@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GreyScale : MonoBehaviour
+public class Solarice : MonoBehaviour
 {
     public Shader shader;
     Material mat;
@@ -11,7 +11,7 @@ public class GreyScale : MonoBehaviour
 
     public Color colorB;
 
-    [Range(0, 10)] public float speed;
+    [Range(0, 1)] public float speed;
     // Start is called before the first frame update
     void Start()
     {
